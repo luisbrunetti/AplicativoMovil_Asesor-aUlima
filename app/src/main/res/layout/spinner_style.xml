@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?attr/spinnerDropDownItemStyle"
+    android:singleLine="true"
+    android:textSize="17dp"
+    android:paddingTop="10dp"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:text="Escoge tu carrera"
+    android:layout_height="?attr/dropdownListPreferredItemHeight"
+    android:ellipsize="marquee">
+</TextView>

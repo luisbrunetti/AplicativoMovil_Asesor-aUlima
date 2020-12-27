@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btnCareer"
+        android:layout_margin="@dimen/padding_item_career"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_item_career"
+        tools:text="Especialidad en Desarrollo de software"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@color/orange_official"/>
+</LinearLayout>

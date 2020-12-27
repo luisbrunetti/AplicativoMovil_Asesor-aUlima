@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Asesoria ULima</string>
+    <string name="text_search_advisor">Buscar a tu asesor</string>
+    <string name="text_profile">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">Bienvenido</string>
+    <string name="text_logout">Cerrar sesión</string>
+    <string name="text_schedule_advisory">Programa una asesoría</string>
+    <string name="text_choose_day">Seleccionar día</string>
+    <string name="choose_hour">Seleccionar hora</string>
+    <string name="text_choose_topic">Tema a Tratar</string>
+    <string name="text_send_email_to">Enviar correo a:</string>
+    <string name="loading_message">Cargando...</string>
+    <string name="topic">Tema:</string>
+    <string name="profesor">Profesor: </string>
+    <string name="day">Día:</string>
+    <string name="hora">Hora:</string>
+    <string name="advisory_message">Guarde aquí los comentarios, sugerencias o apuntes tomados en la asesoría.</string>
+    <string name="update_field">Actualizar datos</string>
+    <string name="create_recordatorio">Crear recordatorio</string>
+    <string name="delete_advisory">Eliminar asesoría</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_magnis_sagittis_cubilia_praesent_rhoncus_sociosqu_potenti_lacinia_habitasse_proin_ridiculus_mi_convallis_fringilla_habitasse_libero_eros">Lorem ipsum dolor sit amet consectetur adipiscing elit, magnis sagittis cubilia praesent rhoncus sociosqu, potenti lacinia habitasse proin ridiculus mi. Convallis fringilla habitasse libero eros</string>
+    <string-array name="list_carreras">
+        <item>Seleccione su carrera</item>
+        <item>Administración</item>
+        <item>Contabilida</item>
+        <item>Economía</item>
+        <item>Marketing</item>
+        <item>Negocios Internacionales</item>
+        <item>Comunicación</item>
+        <item>Derecho</item>
+        <item>Arquitectura</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería de Sistemas</item>
+        <item>Psicología</item>
+    </string-array>
+</resources>

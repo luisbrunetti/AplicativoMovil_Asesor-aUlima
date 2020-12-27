@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="@dimen/size_logo_header"
+        android:layout_height="@dimen/size_logo_header"
+        android:layout_gravity="center"
+        android:src="@drawable/asoeriaulima"/>
+    <TextView
+        android:id="@+id/tvWelcomeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hola Usuario"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+</LinearLayout>

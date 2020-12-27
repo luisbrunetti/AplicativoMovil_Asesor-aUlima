@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#558B2F</color>
+    <color name="colorAccent">#9CCF31</color>
+
+    <color name="cancel_btn_bg_color">#D0D0D0</color>
+    <color name="cancel_btn_bg_pressed_color">#B6B6B6</color>
+
+    <color name="confirm_btn_bg_color">@color/colorAccent</color>
+    <color name="confirm_btn_bg_pressed_color">@color/colorPrimaryDark</color>
+
+    <color name="warning_btn_bg_color">#DD6B55</color>
+    <color name="warning_btn_bg_pressed_color">#CD5B55</color>
+
+</resources>

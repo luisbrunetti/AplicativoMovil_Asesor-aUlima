@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/userlogo"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Nombre(s): "
+                    android:textSize="@dimen/size_textview_items" />
+
+                <TextView
+                    android:id="@+id/tvProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="EJEMPLO"
+                    android:textSize="@dimen/size_textview_items" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Apellido(s): "
+                    android:textSize="@dimen/size_textview_items" />
+
+                <TextView
+                    android:id="@+id/tvProfileLastName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="EJEMPLO EJEMPLO"
+                    android:textSize="@dimen/size_textview_items" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Código: "
+                    android:textSize="@dimen/size_textview_items" />
+
+                <TextView
+                    android:id="@+id/tvProfileCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="123456"
+                    android:textSize="@dimen/size_textview_items" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Carrera: "
+                    android:textSize="@dimen/size_textview_items" />
+
+                <TextView
+                    android:id="@+id/tvProfileCareer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Ingeniería de Sistemas"
+                    android:textSize="@dimen/size_textview_items" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/butEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Editar Perfil"
+                android:textColor="#FFFF"
+                android:background="#FF8000"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

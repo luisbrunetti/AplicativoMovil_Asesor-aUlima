@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/userlogo"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/etProfileName"
+                android:text="hola"
+                android:hint="Ingrese su nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etProfileLastName"
+                android:text="hola"
+                android:hint="Ingrese sus apellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Código: "
+                    android:textSize="@dimen/size_textview_items" />
+                <TextView
+                    android:id="@+id/tvProfileCodeShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="########"
+                    android:textSize="@dimen/size_textview_items" />
+            </LinearLayout>
+            <Spinner
+                android:id="@+id/sp_change_career"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:id="@+id/butBackToProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regresar"
+                    android:textColor="#FFFF"
+                    android:layout_marginRight="20dp"
+                    android:background="#b2b2b2"/>
+                <Button
+                    android:id="@+id/butUpdateProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Actualizar Perfil  "
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#FFFF"
+                    android:background="#FF8000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522778605769",
+    "firebase_url": "https://asesoriaulima-3b55c.firebaseio.com",
+    "project_id": "asesoriaulima-3b55c",
+    "storage_bucket": "asesoriaulima-3b55c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522778605769:android:836bd9b24a9991038f3518",
+        "android_client_info": {
+          "package_name": "com.example.asignacion4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522778605769-48r12qnpdut1le33kkhvqhknk236d1ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asignacion4",
+            "certificate_hash": "71c4d62ac2eb0431d421032f21b8a066271a4e69"
+          }
+        },
+        {
+          "client_id": "522778605769-k05aftpdvjfemq11rt04naebcebrjk9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WAshScN_xy2yxGJTNvc5CN7qnKwtICo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522778605769-k05aftpdvjfemq11rt04naebcebrjk9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

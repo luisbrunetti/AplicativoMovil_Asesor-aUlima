@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity">
+    <RelativeLayout
+        android:id="@+id/progress_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:background="@drawable/alert_progres"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/size_progress_bar"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_circular"
+            android:gravity="center"
+            android:text="@string/loading_message"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/size_text_loading"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_login_asesoriaulima"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/et_login_username"
+        android:layout_marginBottom="15dp"
+
+        android:background="@drawable/asoeriaulima" />
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_login_center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Codigo"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textSize="18sp" />
+    <View
+        android:id="@+id/view_login_center"
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    </View>
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_login_center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/but_login_iniciarsesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_login_password"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:background="#FF8000"
+        android:text="Iniciar sesion"
+        android:textSize="16sp"
+        android:textColor="#FDFCFC" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/but_login_iniciarsesion">
+        <TextView
+            android:id="@+id/tv_login_enum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"
+            android:text="¿Aún no estas registrado?"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:id="@+id/tv_login_registrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_login_enum"
+            android:text="Registrate aqui"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toEndOf="@id/tv_login_enum" />
+    </RelativeLayout>
+
+</RelativeLayout>
